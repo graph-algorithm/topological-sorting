@@ -1,14 +1,24 @@
 {
   "coverage": "100%",
-  "expectCount": 2,
-  "actualCount": 2,
+  "expectCount": 4,
+  "actualCount": 4,
   "files": {
+    "src/freeVertices.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
     "src/kahn1962.js": {
       "expectCount": 1,
       "actualCount": 1,
       "undocumentLines": []
     },
     "src/sorted.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "src/subroutine.js": {
       "expectCount": 1,
       "actualCount": 1,
       "undocumentLines": []

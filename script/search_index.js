@@ -1,5 +1,11 @@
 window.esdocSearchIndex = [
   [
+    "@aureooms/js-topological-sorting/src/freevertices.js~freevertices",
+    "function/index.html#static-function-freeVertices",
+    "<span>freeVertices</span> <span class=\"search-result-import-path\">@aureooms/js-topological-sorting/src/freeVertices.js</span>",
+    "function"
+  ],
+  [
     "@aureooms/js-topological-sorting/src/kahn1962.js~kahn1962",
     "function/index.html#static-function-kahn1962",
     "<span>kahn1962</span> <span class=\"search-result-import-path\">@aureooms/js-topological-sorting/src/kahn1962.js</span>",
@@ -9,6 +15,12 @@ window.esdocSearchIndex = [
     "@aureooms/js-topological-sorting/src/sorted.js~sorted",
     "function/index.html#static-function-sorted",
     "<span>sorted</span> <span class=\"search-result-import-path\">@aureooms/js-topological-sorting/src/sorted.js</span>",
+    "function"
+  ],
+  [
+    "@aureooms/js-topological-sorting/src/subroutine.js~subroutine",
+    "function/index.html#static-function-subroutine",
+    "<span>subroutine</span> <span class=\"search-result-import-path\">@aureooms/js-topological-sorting/src/subroutine.js</span>",
     "function"
   ],
   [
@@ -294,6 +306,12 @@ window.esdocSearchIndex = [
     "external"
   ],
   [
+    "src/freevertices.js",
+    "file/src/freeVertices.js.html",
+    "src/freeVertices.js",
+    "file"
+  ],
+  [
     "src/index.js",
     "file/src/index.js.html",
     "src/index.js",
@@ -309,6 +327,12 @@ window.esdocSearchIndex = [
     "src/sorted.js",
     "file/src/sorted.js.html",
     "src/sorted.js",
+    "file"
+  ],
+  [
+    "src/subroutine.js",
+    "file/src/subroutine.js.html",
+    "src/subroutine.js",
     "file"
   ]
 ]

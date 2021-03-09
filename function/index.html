@@ -29,8 +29,10 @@
 <nav class="navigation" data-ice="nav"><div>
   <ul>
     
-  <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-kahn1962">kahn1962</a></span></span></li>
+  <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-freeVertices">freeVertices</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-kahn1962">kahn1962</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-sorted">sorted</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-subroutine">subroutine</a></span></span></li>
 </ul>
 </div>
 </nav>
@@ -53,6 +55,35 @@
         <p>
           
           
+          
+          <span class="code" data-ice="name"><span><a href="function/index.html#static-function-freeVertices">freeVertices</a></span></span><span class="code" data-ice="signature">(graph: <span>Iterable</span>&lt;<span>any</span>&gt;): <span>Iterable</span>&lt;<span>any</span>&gt;</span>
+        </p>
+      </div>
+      <div>
+        
+        
+        <div data-ice="description"><p>Compute the free vertices of the input graph.</p>
+</div>
+      </div>
+    </td>
+    <td>
+      
+      
+    </td>
+  </tr>
+<tr data-ice="target">
+    <td>
+      <span class="access" data-ice="access">public</span>
+      
+      
+      
+      <span class="override" data-ice="override"></span>
+    </td>
+    <td>
+      <div>
+        <p>
+          
+          
           <span data-ice="generator">*</span>
           <span class="code" data-ice="name"><span><a href="function/index.html#static-function-kahn1962">kahn1962</a></span></span><span class="code" data-ice="signature">(queue: <span>any</span>, graph: <span>any</span>): <span>Iterable</span>&lt;<span>any</span>&gt;</span>
         </p>
@@ -60,7 +91,7 @@
       <div>
         
         
-        <div data-ice="description"><p>Kahn&apos;s algorithm.</p>
+        <div data-ice="description"><p>Kahn&apos;s algorithm for topological sorting.</p>
 <p>See <a href="https://en.wikipedia.org/wiki/Topological_sorting#CITEREFKahn1962">https://en.wikipedia.org/wiki/Topological_sorting#CITEREFKahn1962</a></p>
 </div>
       </div>
@@ -99,11 +130,114 @@
       
     </td>
   </tr>
+<tr data-ice="target">
+    <td>
+      <span class="access" data-ice="access">public</span>
+      
+      
+      
+      <span class="override" data-ice="override"></span>
+    </td>
+    <td>
+      <div>
+        <p>
+          
+          
+          
+          <span class="code" data-ice="name"><span><a href="function/index.html#static-function-subroutine">subroutine</a></span></span><span class="code" data-ice="signature">(queue: <span>any</span>, graph: <span>any</span>): <span>Iterable</span>&lt;<span>any</span>&gt;</span>
+        </p>
+      </div>
+      <div>
+        
+        
+        <div data-ice="description"><p>Sort the vertices topologically using a queue to order the free vertices.</p>
+</div>
+      </div>
+    </td>
+    <td>
+      
+      
+    </td>
+  </tr>
 </tbody>
 </table>
 </div>
 <div data-ice="details"><h2 data-ice="title">Static Public </h2>
 
+<div class="detail" data-ice="detail">
+  <h3 data-ice="anchor" id="static-function-freeVertices">
+    <span class="access" data-ice="access">public</span>
+    
+    
+    
+    
+    
+    <span class="code" data-ice="name">freeVertices</span><span class="code" data-ice="signature">(graph: <span>Iterable</span>&lt;<span>any</span>&gt;): <span>Iterable</span>&lt;<span>any</span>&gt;</span>
+    <span class="right-info">
+      
+      
+      <span data-ice="source"><span><a href="file/src/freeVertices.js.html#lineNumber7">source</a></span></span>
+    </span>
+  </h3>
+
+  <div data-ice="importPath" class="import-path"><pre class="prettyprint"><code data-ice="importPathCode">import freeVertices from &apos;<span><a href="file/src/freeVertices.js.html#lineNumber7">@aureooms/js-topological-sorting/src/freeVertices.js</a></span>&apos;</code></pre></div>
+  
+  
+  <div data-ice="description"><p>Compute the free vertices of the input graph.</p>
+</div>
+
+  
+
+  <div data-ice="properties"><div data-ice="properties">
+  <h4 data-ice="title">Params:</h4>
+  <table class="params">
+    <thead>
+    <tr><td>Name</td><td>Type</td><td>Attribute</td><td>Description</td></tr>
+    </thead>
+    <tbody>
+    
+    <tr data-ice="property" data-depth="0">
+      <td data-ice="name" class="code" data-depth="0">graph</td>
+      <td data-ice="type" class="code"><span>Iterable</span>&lt;<span>any</span>&gt;</td>
+      <td data-ice="appendix"></td>
+      <td data-ice="description"><p>The input graph as a list of edges.</p>
+</td>
+    </tr>
+</tbody>
+  </table>
+</div>
+</div>
+
+  <div class="return-params" data-ice="returnParams">
+    <h4>Return:</h4>
+    <table>
+      <tbody>
+        <tr>
+          <td class="return-type code" data-ice="returnType"><span>Iterable</span>&lt;<span>any</span>&gt;</td>
+          <td class="return-desc" data-ice="returnDescription"><p>The free vertices of the input graph.</p>
+</td>
+        </tr>
+      </tbody>
+    </table>
+    <div data-ice="returnProperties">
+</div>
+  </div>
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+</div>
 <div class="detail" data-ice="detail">
   <h3 data-ice="anchor" id="static-function-kahn1962">
     <span class="access" data-ice="access">public</span>
@@ -123,7 +257,7 @@
   <div data-ice="importPath" class="import-path"><pre class="prettyprint"><code data-ice="importPathCode">import kahn1962 from &apos;<span><a href="file/src/kahn1962.js.html#lineNumber10">@aureooms/js-topological-sorting/src/kahn1962.js</a></span>&apos;</code></pre></div>
   
   
-  <div data-ice="description"><p>Kahn&apos;s algorithm.</p>
+  <div data-ice="description"><p>Kahn&apos;s algorithm for topological sorting.</p>
 <p>See <a href="https://en.wikipedia.org/wiki/Topological_sorting#CITEREFKahn1962">https://en.wikipedia.org/wiki/Topological_sorting#CITEREFKahn1962</a></p>
 </div>
 
@@ -269,6 +403,87 @@
 </tbody>
     </table>
   </div>
+
+  
+
+  
+
+  
+
+  
+  
+</div>
+<div class="detail" data-ice="detail">
+  <h3 data-ice="anchor" id="static-function-subroutine">
+    <span class="access" data-ice="access">public</span>
+    
+    
+    
+    
+    
+    <span class="code" data-ice="name">subroutine</span><span class="code" data-ice="signature">(queue: <span>any</span>, graph: <span>any</span>): <span>Iterable</span>&lt;<span>any</span>&gt;</span>
+    <span class="right-info">
+      
+      
+      <span data-ice="source"><span><a href="file/src/subroutine.js.html#lineNumber11">source</a></span></span>
+    </span>
+  </h3>
+
+  <div data-ice="importPath" class="import-path"><pre class="prettyprint"><code data-ice="importPathCode">import subroutine from &apos;<span><a href="file/src/subroutine.js.html#lineNumber11">@aureooms/js-topological-sorting/src/subroutine.js</a></span>&apos;</code></pre></div>
+  
+  
+  <div data-ice="description"><p>Sort the vertices topologically using a queue to order the free vertices.</p>
+</div>
+
+  
+
+  <div data-ice="properties"><div data-ice="properties">
+  <h4 data-ice="title">Params:</h4>
+  <table class="params">
+    <thead>
+    <tr><td>Name</td><td>Type</td><td>Attribute</td><td>Description</td></tr>
+    </thead>
+    <tbody>
+    
+    <tr data-ice="property" data-depth="0">
+      <td data-ice="name" class="code" data-depth="0">queue</td>
+      <td data-ice="type" class="code"><span>any</span></td>
+      <td data-ice="appendix"></td>
+      <td data-ice="description"><p>The queue that will be used.</p>
+</td>
+    </tr>
+<tr data-ice="property" data-depth="0">
+      <td data-ice="name" class="code" data-depth="0">graph</td>
+      <td data-ice="type" class="code"><span>any</span></td>
+      <td data-ice="appendix"></td>
+      <td data-ice="description"><p>The input graph as a list of edges.</p>
+</td>
+    </tr>
+</tbody>
+  </table>
+</div>
+</div>
+
+  <div class="return-params" data-ice="returnParams">
+    <h4>Return:</h4>
+    <table>
+      <tbody>
+        <tr>
+          <td class="return-type code" data-ice="returnType"><span>Iterable</span>&lt;<span>any</span>&gt;</td>
+          <td class="return-desc" data-ice="returnDescription"><p>The vertices sorted in topological order.</p>
+</td>
+        </tr>
+      </tbody>
+    </table>
+    <div data-ice="returnProperties">
+</div>
+  </div>
+
+  
+
+  
+
+  
 
   
 

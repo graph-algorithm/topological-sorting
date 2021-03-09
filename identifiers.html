@@ -29,8 +29,10 @@
 <nav class="navigation" data-ice="nav"><div>
   <ul>
     
-  <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-kahn1962">kahn1962</a></span></span></li>
+  <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-freeVertices">freeVertices</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-kahn1962">kahn1962</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-sorted">sorted</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-subroutine">subroutine</a></span></span></li>
 </ul>
 </div>
 </nav>
@@ -59,6 +61,35 @@
         <p>
           <span data-ice="kind-icon" class="kind-function">F</span>
           
+          
+          <span class="code" data-ice="name"><span><a href="function/index.html#static-function-freeVertices">freeVertices</a></span></span><span class="code" data-ice="signature">(graph: <span>Iterable</span>&lt;<span>any</span>&gt;): <span>Iterable</span>&lt;<span>any</span>&gt;</span>
+        </p>
+      </div>
+      <div>
+        
+        
+        <div data-ice="description"><p>Compute the free vertices of the input graph.</p>
+</div>
+      </div>
+    </td>
+    <td>
+      
+      
+    </td>
+  </tr>
+<tr data-ice="target">
+    <td>
+      <span class="access" data-ice="access">public</span>
+      
+      
+      
+      <span class="override" data-ice="override"></span>
+    </td>
+    <td>
+      <div>
+        <p>
+          <span data-ice="kind-icon" class="kind-function">F</span>
+          
           <span data-ice="generator">*</span>
           <span class="code" data-ice="name"><span><a href="function/index.html#static-function-kahn1962">kahn1962</a></span></span><span class="code" data-ice="signature">(queue: <span>any</span>, graph: <span>any</span>): <span>Iterable</span>&lt;<span>any</span>&gt;</span>
         </p>
@@ -66,7 +97,7 @@
       <div>
         
         
-        <div data-ice="description"><p>Kahn&apos;s algorithm.</p>
+        <div data-ice="description"><p>Kahn&apos;s algorithm for topological sorting.</p>
 <p>See <a href="https://en.wikipedia.org/wiki/Topological_sorting#CITEREFKahn1962">https://en.wikipedia.org/wiki/Topological_sorting#CITEREFKahn1962</a></p>
 </div>
       </div>
@@ -97,6 +128,35 @@
         
         
         <div data-ice="description"><p>Sort the vertices topologically breaking ties according to a given function.</p>
+</div>
+      </div>
+    </td>
+    <td>
+      
+      
+    </td>
+  </tr>
+<tr data-ice="target">
+    <td>
+      <span class="access" data-ice="access">public</span>
+      
+      
+      
+      <span class="override" data-ice="override"></span>
+    </td>
+    <td>
+      <div>
+        <p>
+          <span data-ice="kind-icon" class="kind-function">F</span>
+          
+          
+          <span class="code" data-ice="name"><span><a href="function/index.html#static-function-subroutine">subroutine</a></span></span><span class="code" data-ice="signature">(queue: <span>any</span>, graph: <span>any</span>): <span>Iterable</span>&lt;<span>any</span>&gt;</span>
+        </p>
+      </div>
+      <div>
+        
+        
+        <div data-ice="description"><p>Sort the vertices topologically using a queue to order the free vertices.</p>
 </div>
       </div>
     </td>

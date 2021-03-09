@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <base data-ice="baseUrl" href="../../">
-  <title data-ice="title">src/sorted.js | @aureooms/js-topological-sorting</title>
+  <title data-ice="title">src/freeVertices.js | @aureooms/js-topological-sorting</title>
   <link type="text/css" rel="stylesheet" href="css/style.css">
   <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
   <script src="script/prettify/prettify.js"></script>
@@ -37,31 +37,18 @@
 </div>
 </nav>
 
-<div class="content" data-ice="content"><h1 data-ice="title">src/sorted.js</h1>
-<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import Heap from &apos;@aureooms/js-pairing-heap&apos;;
-import {EfficientlyInvertiblePairs as Pairs} from &apos;@aureooms/js-pairs&apos;;
-
-import subroutine from &apos;./subroutine.js&apos;;
-
-/**
- * Sort the vertices topologically breaking ties according to a given function.
+<div class="content" data-ice="content"><h1 data-ice="title">src/freeVertices.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">/**
+ * Compute the free vertices of the input graph.
  *
- * @param {Iterable&lt;any&gt;} edges - The input graph as a list of edges.
- * @param {Function} breakTies - The function to break ties.
- * @returns {Iterable&lt;any&gt;} The vertices sorted in topological order.
- * @throws {Error} If the input graph contains a cycle.
+ * @param {Iterable&lt;any&gt;} graph - The input graph as a list of edges.
+ * @returns {Iterable&lt;any&gt;} The free vertices of the input graph.
  */
-export default function* sorted(edges, breakTies = undefined) {
-	const queue = breakTies ? new Heap(breakTies) : [];
-	const graph = Pairs.from(edges);
-
-	yield* subroutine(queue, graph);
-
-	if (graph.size &gt; 0) {
-		throw new Error(
-			&apos;@aureooms/js-topological-sorting#sorted: input graph contains a cycle&apos;,
-		);
-	}
+export default function freeVertices(graph) {
+	const vertices = new Set();
+	for (const [u] of graph) vertices.add(u);
+	for (const [, v] of graph) vertices.delete(v);
+	return vertices;
 }
 </code></pre>
 
