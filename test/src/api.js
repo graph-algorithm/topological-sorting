@@ -124,3 +124,21 @@ test('Triangle after edge', (t) => {
 	const edges = ['xa', 'ab', 'bc', 'ca'];
 	t.throws(() => [...sorted(edges)], {message: /cycle/});
 });
+
+test('README example #1', (t) => {
+	const edges = ['ab', 'bc'];
+	const expected = ['a', 'b', 'c'];
+	t.deepEqual([...sorted(edges)], expected);
+});
+
+test('README example #2', (t) => {
+	const edges = ['ab', 'cd'];
+	const expected = ['a', 'b', 'c', 'd'];
+	t.deepEqual([...sorted(edges, increasing)], expected);
+});
+
+test('README example #3', (t) => {
+	const edges = ['ab', 'cd'];
+	const expected = ['c', 'd', 'a', 'b'];
+	t.deepEqual([...sorted(edges, decreasing)], expected);
+});

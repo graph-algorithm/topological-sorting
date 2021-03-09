@@ -14,7 +14,10 @@ sorted(["ab", "bc"]); // abc
 
 // Add a comparison function to break ties.
 import {increasing} from '@aureooms/js-compare';
-sorted(["ab", "cd"], increasing); // acbd
+sorted(["ab", "cd"], increasing); // abcd
+
+import {decreasing} from '@aureooms/js-compare';
+sorted(["ab", "cd"], decreasing); // cdab
 ```
 
 [![License](https://img.shields.io/github/license/aureooms/js-topological-sorting.svg)](https://raw.githubusercontent.com/aureooms/js-topological-sorting/main/LICENSE)

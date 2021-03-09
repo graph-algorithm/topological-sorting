@@ -10,10 +10,10 @@ import kahn from './kahn.js';
  * @param {(a: any, b: any) => Number} breakTies - The function to break ties.
  * @returns {Iterable<any>} The vertices sorted in topological order.
  */
-export default function sorted(edges, breakTies = (_a, _b) => -1) {
+export default function sorted(edges, breakTies = undefined) {
 	const graph = Pairs.from(edges);
 
-	const queue = new Heap(breakTies);
+	const queue = breakTies ? new Heap(breakTies) : [];
 	const freeVertices = new Set();
 	for (const [u] of graph) freeVertices.add(u);
 	for (const [, v] of graph) freeVertices.delete(v);
