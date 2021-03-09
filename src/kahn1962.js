@@ -3,8 +3,8 @@
  *
  * See https://en.wikipedia.org/wiki/Topological_sorting#CITEREFKahn1962
  *
- * @param {any} queue
- * @param {any} graph
+ * @param {any} queue - Free vertices.
+ * @param {any} graph - Edges of the graph.
  * @returns {Iterable<any>} The vertices in topological order.
  */
 export default function* kahn1962(queue, graph) {
