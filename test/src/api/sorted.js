@@ -9,7 +9,7 @@ import {
 } from '@aureooms/js-compare';
 import {EfficientlyInvertiblePairs as Pairs} from '@aureooms/js-pairs';
 import counter from '@aureooms/js-collections-counter';
-import {sorted} from '../../src/index.js';
+import {sorted} from '../../../src/index.js';
 
 // https://en.wikipedia.org/wiki/Topological_sorting
 const wikipediaGraph = [
