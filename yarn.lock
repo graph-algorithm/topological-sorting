@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-"@aureooms/js-collections-counter@^5.0.0":
+"@aureooms/js-collections-counter@5.0.0":
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/@aureooms/js-collections-counter/-/js-collections-counter-5.0.0.tgz#78f88bb8dfcafc8f2c7265d4c7ce5beba916dfe9"
   integrity sha512-Yg3BEZsDgAndyLf2AjN+FjA6ggrG42IduhO7F6zP4S/dRedlcB2PaeggMVR/qt1BXTi4Z3uO0DIPv717c1rLiA==
@@ -34,7 +34,7 @@
     "@aureooms/js-error" "^3.0.0"
     "@aureooms/js-mapping" "^3.0.0"
 
-"@aureooms/js-compare@^1.4.5", "@aureooms/js-compare@^1.4.8":
+"@aureooms/js-compare@1.4.8", "@aureooms/js-compare@^1.4.5":
   version "1.4.8"
   resolved "https://registry.yarnpkg.com/@aureooms/js-compare/-/js-compare-1.4.8.tgz#c6bff1091f4a2e211f449299572d9f195146fc59"
   integrity sha512-Z26PU6OmuhS7ZJsELTKImmipF7J+KCOyN70wBhhVIhmqUhXY6C3JpJHAev6wNBkC4ThlQt3zO6p/OmBFIq76Qg==
@@ -58,20 +58,20 @@
     "@aureooms/js-error" "^3.0.0"
     "@aureooms/js-itertools" "^3.1.1"
 
-"@aureooms/js-itertools@^3.1.1":
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/@aureooms/js-itertools/-/js-itertools-3.4.0.tgz#2140cd62e5ae706402afef2e82f924658e0403e2"
-  integrity sha512-lVOnOr1Fo+fdaT20wBEz2q+KOQ145yFB0WNbqY6FkeB2xQrW+Xi9bzwG1kQ9fP5eOQnhyXvBdpYK90AkkZufmA==
-  dependencies:
-    "@aureooms/js-collections-deque" "^3.1.0"
-
-"@aureooms/js-itertools@^4.1.0":
+"@aureooms/js-itertools@4.1.0", "@aureooms/js-itertools@^4.1.0":
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/@aureooms/js-itertools/-/js-itertools-4.1.0.tgz#c731eaee7de0005c6ea41f2f87cca4bdb2d86ca1"
   integrity sha512-P9TfwQPuXk5T5z6QMMfwLLyzh9QsEu4sGWcBk/P/waWgim/xqr+LDTOHVo7WU4QAty+/5CBX8DuW7MrPVfXt5A==
   dependencies:
     "@aureooms/js-collections-deque" "^4.0.1"
     "@aureooms/js-error" "^4.0.1"
+
+"@aureooms/js-itertools@^3.1.1":
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/@aureooms/js-itertools/-/js-itertools-3.4.0.tgz#2140cd62e5ae706402afef2e82f924658e0403e2"
+  integrity sha512-lVOnOr1Fo+fdaT20wBEz2q+KOQ145yFB0WNbqY6FkeB2xQrW+Xi9bzwG1kQ9fP5eOQnhyXvBdpYK90AkkZufmA==
+  dependencies:
+    "@aureooms/js-collections-deque" "^3.1.0"
 
 "@aureooms/js-mapping@^3.0.0":
   version "3.1.0"
