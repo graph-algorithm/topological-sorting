@@ -127,18 +127,18 @@ test('Triangle after edge', (t) => {
 
 test('README example #1', (t) => {
 	const edges = ['ab', 'bc'];
-	const expected = ['a', 'b', 'c'];
+	const expected = list('abc');
 	t.deepEqual([...sorted(edges)], expected);
 });
 
 test('README example #2', (t) => {
 	const edges = ['ab', 'cd'];
-	const expected = ['a', 'b', 'c', 'd'];
+	const expected = list('abcd');
 	t.deepEqual([...sorted(edges, increasing)], expected);
 });
 
 test('README example #3', (t) => {
 	const edges = ['ab', 'cd'];
-	const expected = ['c', 'd', 'a', 'b'];
+	const expected = list('cdab');
 	t.deepEqual([...sorted(edges, decreasing)], expected);
 });
