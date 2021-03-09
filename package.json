@@ -54,6 +54,7 @@
   },
   "dependencies": {},
   "devDependencies": {
+    "@aureooms/js-compare": "^1.4.8",
     "@babel/cli": "7.13.10",
     "@babel/core": "7.13.10",
     "@babel/preset-env": "7.13.10",
