@@ -25,8 +25,8 @@
   "source": "src/index.js",
   "main": "dist/index.js",
   "module": "dist/index.module.js",
-  "unpkg": "dist/index.umd.js",
   "umd:main": "dist/index.umd.js",
+  "unpkg": "dist/index.umd.js",
   "exports": {
     ".": {
       "browser": "./dist/index.module.js",
