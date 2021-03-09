@@ -19,7 +19,7 @@ sorted(["ab", "cd"], increasing); // acbd
 
 [![License](https://img.shields.io/github/license/aureooms/js-topological-sorting.svg)](https://raw.githubusercontent.com/aureooms/js-topological-sorting/main/LICENSE)
 [![Version](https://img.shields.io/npm/v/@aureooms/js-topological-sorting.svg)](https://www.npmjs.org/package/@aureooms/js-topological-sorting)
-[![Build](https://img.shields.io/travis/aureooms/js-topological-sorting/main.svg)](https://travis-ci.org/aureooms/js-topological-sorting/branches)
+[![Build](https://img.shields.io/travis/aureooms/js-topological-sorting/main.svg)](https://travis-ci.com/aureooms/js-topological-sorting/branches)
 [![Dependencies](https://img.shields.io/david/aureooms/js-topological-sorting.svg)](https://david-dm.org/aureooms/js-topological-sorting)
 [![Dev dependencies](https://img.shields.io/david/dev/aureooms/js-topological-sorting.svg)](https://david-dm.org/aureooms/js-topological-sorting?type=dev)
 [![GitHub issues](https://img.shields.io/github/issues/aureooms/js-topological-sorting.svg)](https://github.com/aureooms/js-topological-sorting/issues)
