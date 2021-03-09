@@ -19,8 +19,4 @@ export default function* kahn1962(queue, graph) {
 			}
 		}
 	}
-
-	if (graph.size > 0) {
-		throw new Error('kahn: graph has at least one cycle');
-	}
 }
