@@ -1,6 +1,8 @@
 import test from 'ava';
 
+import {map} from '@aureooms/js-itertools';
 import {increasing, decreasing} from '@aureooms/js-compare';
+import counter from '@aureooms/js-collections-counter';
 import {sorted} from '../../src/index.js';
 
 // https://en.wikipedia.org/wiki/Topological_sorting
@@ -27,5 +29,15 @@ test('largest-numbered available vertex first', (t) => {
 	const expected = [7, 5, 11, 3, 10, 8, 9, 2];
 	const edges = wikipediaGraph.slice();
 	const result = [...sorted(edges, decreasing)];
+	t.deepEqual(result, expected);
+});
+
+test('fewest edges first', (t) => {
+	const expected = [5, 7, 3, 8, 11, 10, 9, 2];
+	const edges = wikipediaGraph.slice();
+	const nEdges = counter(map(([u]) => u, edges));
+	const breakTies = (a, b) =>
+		increasing(nEdges.get(a), nEdges.get(b)) || decreasing(a, b);
+	const result = [...sorted(edges, breakTies)];
 	t.deepEqual(result, expected);
 });

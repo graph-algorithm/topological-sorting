@@ -2,6 +2,23 @@
 # yarn lockfile v1
 
 
+"@aureooms/js-collections-counter@^5.0.0":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@aureooms/js-collections-counter/-/js-collections-counter-5.0.0.tgz#78f88bb8dfcafc8f2c7265d4c7ce5beba916dfe9"
+  integrity sha512-Yg3BEZsDgAndyLf2AjN+FjA6ggrG42IduhO7F6zP4S/dRedlcB2PaeggMVR/qt1BXTi4Z3uO0DIPv717c1rLiA==
+  dependencies:
+    "@aureooms/js-collections-dict" "^3.0.0"
+    "@aureooms/js-compare" "^1.4.5"
+    "@aureooms/js-error" "^4.0.0"
+    "@aureooms/js-heapq" "^3.1.0"
+
+"@aureooms/js-collections-deque@^3.1.0":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@aureooms/js-collections-deque/-/js-collections-deque-3.1.0.tgz#2df0f28883f1367c979232d8c3964aede93d2ded"
+  integrity sha1-LfDyiIPxNnyXkjLYw5ZK7ek9Le0=
+  dependencies:
+    "@aureooms/js-error" "^3.0.0"
+
 "@aureooms/js-collections-deque@^4.0.1":
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/@aureooms/js-collections-deque/-/js-collections-deque-4.0.1.tgz#bd8b827cdb597d061525c380dd704e338c77bd5f"
@@ -9,15 +26,44 @@
   dependencies:
     "@aureooms/js-error" "^4.0.1"
 
-"@aureooms/js-compare@^1.4.8":
+"@aureooms/js-collections-dict@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@aureooms/js-collections-dict/-/js-collections-dict-3.0.0.tgz#30177be5a7c6870fefafad418d837569aaf746f5"
+  integrity sha1-MBd75afGhw/vr61BjYN1aar3RvU=
+  dependencies:
+    "@aureooms/js-error" "^3.0.0"
+    "@aureooms/js-mapping" "^3.0.0"
+
+"@aureooms/js-compare@^1.4.5", "@aureooms/js-compare@^1.4.8":
   version "1.4.8"
   resolved "https://registry.yarnpkg.com/@aureooms/js-compare/-/js-compare-1.4.8.tgz#c6bff1091f4a2e211f449299572d9f195146fc59"
   integrity sha512-Z26PU6OmuhS7ZJsELTKImmipF7J+KCOyN70wBhhVIhmqUhXY6C3JpJHAev6wNBkC4ThlQt3zO6p/OmBFIq76Qg==
 
-"@aureooms/js-error@^4.0.1":
+"@aureooms/js-error@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@aureooms/js-error/-/js-error-3.0.0.tgz#c06a455569c4cb26c3792ab9c9f075da707823de"
+  integrity sha1-wGpFVWnEyybDeSq5yfB12nB4I94=
+
+"@aureooms/js-error@^4.0.0", "@aureooms/js-error@^4.0.1":
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/@aureooms/js-error/-/js-error-4.0.1.tgz#be2740b3f31a337e0828930c9b70d38113b4dd77"
   integrity sha512-zsgs6wmnRsKljlusewYiBaFBM/hIJp43b7OwE9ybpLEL4wfXjGP17cJTTAY8gpzALVFwEA5/flxIK0I6gJJLHQ==
+
+"@aureooms/js-heapq@^3.1.0":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@aureooms/js-heapq/-/js-heapq-3.1.0.tgz#4f5dfbdacd6f726a69a56569d8b2c97b19ace0e9"
+  integrity sha1-T1372s1vcmpppWVp2LLJexms4Ok=
+  dependencies:
+    "@aureooms/js-compare" "^1.4.5"
+    "@aureooms/js-error" "^3.0.0"
+    "@aureooms/js-itertools" "^3.1.1"
+
+"@aureooms/js-itertools@^3.1.1":
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/@aureooms/js-itertools/-/js-itertools-3.4.0.tgz#2140cd62e5ae706402afef2e82f924658e0403e2"
+  integrity sha512-lVOnOr1Fo+fdaT20wBEz2q+KOQ145yFB0WNbqY6FkeB2xQrW+Xi9bzwG1kQ9fP5eOQnhyXvBdpYK90AkkZufmA==
+  dependencies:
+    "@aureooms/js-collections-deque" "^3.1.0"
 
 "@aureooms/js-itertools@^4.1.0":
   version "4.1.0"
@@ -26,6 +72,11 @@
   dependencies:
     "@aureooms/js-collections-deque" "^4.0.1"
     "@aureooms/js-error" "^4.0.1"
+
+"@aureooms/js-mapping@^3.0.0":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@aureooms/js-mapping/-/js-mapping-3.1.0.tgz#3590a8f535b2e0753fabe868681d6173acd9746b"
+  integrity sha512-NasiGBH4q1hLCPyA/GO578dCzl7MMDTDAE8leYt3b4D7Yr0NWPTNL1eUAE7F5E6IYpAdgaM7NDmNuj8zUT5+Dw==
 
 "@aureooms/js-pairing-heap@^1.0.0":
   version "1.0.0"
