@@ -1,2 +1,3 @@
-const answer = 42;
-export default answer;
+import sorted from './sorted.js';
+
+export {sorted};
