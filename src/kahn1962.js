@@ -1,5 +1,5 @@
 /**
- * Kahn's algorithm.
+ * Kahn's algorithm for topological sorting.
  *
  * See https://en.wikipedia.org/wiki/Topological_sorting#CITEREFKahn1962
  *
