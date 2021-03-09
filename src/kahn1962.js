@@ -7,7 +7,7 @@
  * @param {any} graph
  * @returns {Iterable<any>} The vertices in topological order.
  */
-export default function* kahn(queue, graph) {
+export default function* kahn1962(queue, graph) {
 	while (true) {
 		const u = queue.pop();
 		if (u === undefined) break;

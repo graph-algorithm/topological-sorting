@@ -1,7 +1,7 @@
 import Heap from '@aureooms/js-pairing-heap';
 import {EfficientlyInvertiblePairs as Pairs} from '@aureooms/js-pairs';
 
-import kahn from './kahn.js';
+import kahn1962 from './kahn1962.js';
 
 /**
  * Sort the vertices topologically breaking ties according to a given function.
@@ -19,5 +19,5 @@ export default function sorted(edges, breakTies = undefined) {
 	for (const [, v] of graph) freeVertices.delete(v);
 	for (const u of freeVertices) queue.push(u);
 
-	return kahn(queue, graph);
+	return kahn1962(queue, graph);
 }
