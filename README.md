@@ -4,11 +4,18 @@
 Topological sorting for JavaScript.
 See [docs](https://aureooms.github.io/js-topological-sorting/index.html).
 
-> :building_construction: Caveat emptor! This is work in progress. Code may be
-> working. Documentation may be present. Coherence may be. Maybe.
-
 > :warning: The code requires `regeneratorRuntime` to be defined, for instance by importing
 > [regenerator-runtime/runtime](https://www.npmjs.com/package/regenerator-runtime).
+
+```js
+// Sort anything that can be iterated over with `for (const [u, v] of ...)`
+import {sorted} from '@aureooms/js-topological-sorting';
+sorted(["ab", "bc"]); // abc
+
+// Add a comparison function to break ties.
+import {increasing} from '@aureooms/js-compare';
+sorted(["ab", "cd"], increasing); // acbd
+```
 
 [![License](https://img.shields.io/github/license/aureooms/js-topological-sorting.svg)](https://raw.githubusercontent.com/aureooms/js-topological-sorting/main/LICENSE)
 [![Version](https://img.shields.io/npm/v/@aureooms/js-topological-sorting.svg)](https://www.npmjs.org/package/@aureooms/js-topological-sorting)
