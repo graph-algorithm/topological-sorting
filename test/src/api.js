@@ -41,3 +41,13 @@ test('fewest edges first', (t) => {
 	const result = [...sorted(edges, breakTies)];
 	t.deepEqual(result, expected);
 });
+
+test('Triangle', (t) => {
+	const edges = ['ab', 'bc', 'ca'];
+	t.throws(() => [...sorted(edges)], {message: /cycle/});
+});
+
+test('Triangle after edge', (t) => {
+	const edges = ['xa', 'ab', 'bc', 'ca'];
+	t.throws(() => [...sorted(edges)], {message: /cycle/});
+});
