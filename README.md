@@ -1,7 +1,7 @@
 :oden: [@aureooms/js-topological-sorting](https://aureooms.github.io/js-topological-sorting)
 ==
 
-Topological sorting for JavaScript.
+Topological sorting algorithms for JavaScript.
 See [docs](https://aureooms.github.io/js-topological-sorting/index.html).
 
 > :warning: The code requires `regeneratorRuntime` to be defined, for instance by importing
