@@ -66,7 +66,7 @@
   },
   "devDependencies": {
     "@aureooms/js-collections-counter": "5.0.0",
-    "@aureooms/js-compare": "1.4.8",
+    "@aureooms/js-compare": "2.0.0",
     "@aureooms/js-itertools": "5.0.1",
     "@babel/cli": "7.13.10",
     "@babel/core": "7.13.10",
