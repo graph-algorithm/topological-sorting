@@ -61,7 +61,7 @@
     "travis": "npm run lint && npm run cover"
   },
   "dependencies": {
-    "@aureooms/js-pairing-heap": "^1.0.0",
+    "@aureooms/js-pairing-heap": "^2.0.0",
     "@aureooms/js-pairs": "^0.0.0"
   },
   "devDependencies": {
