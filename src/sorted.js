@@ -1,4 +1,4 @@
-import Heap from '@aureooms/js-pairing-heap';
+import {PairingHeap as Heap} from '@aureooms/js-pairing-heap';
 import {EfficientlyInvertiblePairs as Pairs} from '@aureooms/js-pairs';
 
 import subroutine from './subroutine.js';
