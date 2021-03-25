@@ -5,8 +5,7 @@
  * @returns {Iterable} The free vertices of the input graph.
  */
 export default function freeVertices(graph) {
-	const vertices = new Set();
-	for (const u of graph.left()) vertices.add(u);
+	const vertices = new Set(graph.left());
 	for (const v of graph.right()) vertices.delete(v);
 	return vertices;
 }
