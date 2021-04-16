@@ -108,10 +108,10 @@
   resolved "https://registry.yarnpkg.com/@aureooms/js-mapping/-/js-mapping-3.1.0.tgz#3590a8f535b2e0753fabe868681d6173acd9746b"
   integrity sha512-NasiGBH4q1hLCPyA/GO578dCzl7MMDTDAE8leYt3b4D7Yr0NWPTNL1eUAE7F5E6IYpAdgaM7NDmNuj8zUT5+Dw==
 
-"@aureooms/js-pairing-heap@^2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@aureooms/js-pairing-heap/-/js-pairing-heap-2.0.1.tgz#b5431be8ce5a30139ac1e1d1280a4f0d1e07591f"
-  integrity sha512-8eGAOb6qyxP634Jg0BAR30IsA+IJvgv4MqqC1+AzqluFiWmWg3u81WigvIM17sr5wnrx/VkMXsvNpfG4ly+PKg==
+"@aureooms/js-pairing-heap@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@aureooms/js-pairing-heap/-/js-pairing-heap-3.0.0.tgz#03b0c5ad7c07a63fa65d65235c54ed3ce75bc0da"
+  integrity sha512-xU7UzdcmqTC2WwkWIFIfWv9ZGzMmXK+hHyY8K51IngEnVxPtvEza/1lirszDPA/URnKUOZ1Tuj9oC5KfqjMnGQ==
 
 "@aureooms/js-pairs@^1.0.0":
   version "1.0.0"

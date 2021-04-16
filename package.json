@@ -61,7 +61,7 @@
     "test": "ava"
   },
   "dependencies": {
-    "@aureooms/js-pairing-heap": "^2.0.1",
+    "@aureooms/js-pairing-heap": "^3.0.0",
     "@aureooms/js-pairs": "^1.0.0"
   },
   "devDependencies": {
