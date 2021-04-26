@@ -1,8 +1,8 @@
-:oden: [@aureooms/js-topological-sorting](https://aureooms.github.io/js-topological-sorting)
+:oden: [@aureooms/js-topological-sorting](https://make-github-pseudonymous-again.github.io/js-topological-sorting)
 ==
 
 Topological sorting algorithms for JavaScript.
-See [docs](https://aureooms.github.io/js-topological-sorting/index.html).
+See [docs](https://make-github-pseudonymous-again.github.io/js-topological-sorting/index.html).
 
 > :warning: The code requires `regeneratorRuntime` to be defined, for instance by importing
 > [regenerator-runtime/runtime](https://www.npmjs.com/package/regenerator-runtime).
@@ -32,5 +32,5 @@ sorted(["ab", "cd"], decreasing); // cdab
 [![Code maintainability](https://img.shields.io/codeclimate/maintainability/aureooms/js-topological-sorting.svg)](https://codeclimate.com/github/aureooms/js-topological-sorting/trends/churn)
 [![Code coverage (cov)](https://img.shields.io/codecov/c/gh/aureooms/js-topological-sorting/main.svg)](https://codecov.io/gh/aureooms/js-topological-sorting)
 [![Code technical debt](https://img.shields.io/codeclimate/tech-debt/aureooms/js-topological-sorting.svg)](https://codeclimate.com/github/aureooms/js-topological-sorting/trends/technical_debt)
-[![Documentation](https://aureooms.github.io/js-topological-sorting/badge.svg)](https://aureooms.github.io/js-topological-sorting/source.html)
+[![Documentation](https://make-github-pseudonymous-again.github.io/js-topological-sorting/badge.svg)](https://make-github-pseudonymous-again.github.io/js-topological-sorting/source.html)
 [![Package size](https://img.shields.io/bundlephobia/minzip/@aureooms/js-topological-sorting)](https://bundlephobia.com/result?p=@aureooms/js-topological-sorting)
