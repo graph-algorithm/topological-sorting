@@ -7,10 +7,10 @@
   "homepage": "https://make-github-pseudonymous-again.github.io/js-topological-sorting",
   "repository": {
     "type": "git",
-    "url": "https://github.com/aureooms/js-topological-sorting"
+    "url": "https://github.com/make-github-pseudonymous-again/js-topological-sorting"
   },
   "bugs": {
-    "url": "https://github.com/aureooms/js-topological-sorting/issues"
+    "url": "https://github.com/make-github-pseudonymous-again/js-topological-sorting/issues"
   },
   "keywords": [
     "acyclic",
