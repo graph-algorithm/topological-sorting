@@ -7,7 +7,7 @@ import {
 	colexicographical,
 	fn,
 } from '@aureooms/js-compare';
-import {EfficientlyInvertiblePairs as Pairs} from '@aureooms/js-pairs';
+import {EfficientlyInvertiblePairs as Pairs} from '@data-structure/pairs';
 import counter from '@aureooms/js-collections-counter';
 import {sorted} from '../../../src/index.js';
 

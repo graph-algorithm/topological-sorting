@@ -1,5 +1,5 @@
 import {PairingHeap as Heap} from '@aureooms/js-pairing-heap';
-import {EfficientlyInvertiblePairs as Pairs} from '@aureooms/js-pairs';
+import {EfficientlyInvertiblePairs as Pairs} from '@data-structure/pairs';
 
 import subroutine from './subroutine.js';
 
