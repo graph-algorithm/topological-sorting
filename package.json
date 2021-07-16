@@ -62,7 +62,7 @@
   },
   "dependencies": {
     "@aureooms/js-pairing-heap": "^3.0.0",
-    "@data-structure/pairs": "^3.0.0"
+    "@data-structure/pairs": "^4.0.0"
   },
   "devDependencies": {
     "@aureooms/js-collections-counter": "5.0.0",
