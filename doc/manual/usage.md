@@ -12,7 +12,7 @@ import 'regenerator-runtime/runtime.js' ;
 
 Then, import the library where needed
 ```js
-const topologicalSorting = require( '@aureooms/js-topological-sorting' ) ;
+const topologicalSorting = require( '@graph-algorithm/topological-sorting' ) ;
 // or
-import * as topologicalSorting from '@aureooms/js-topological-sorting' ;
+import * as topologicalSorting from '@graph-algorithm/topological-sorting' ;
 ```

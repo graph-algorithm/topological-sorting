@@ -1,14 +1,13 @@
 import test from 'ava';
 
-import {map, list, range} from '@aureooms/js-itertools';
-import {
-	increasing,
-	decreasing,
-	colexicographical,
-	fn,
-} from '@aureooms/js-compare';
-import {EfficientlyInvertiblePairs as Pairs} from '@data-structure/pairs';
-import counter from '@aureooms/js-collections-counter';
+import {map} from '@iterable-iterator/map';
+import {list} from '@iterable-iterator/list';
+import {range} from '@iterable-iterator/range';
+import {increasing, decreasing} from '@total-order/primitive';
+import {colexicographical} from '@total-order/lex';
+import {key} from '@total-order/key';
+import {EfficientlyInvertiblePairs as Pairs} from '@collection-abstraction/pairs';
+import {counter} from '@collection-abstraction/counter';
 import {sorted} from '../../../src/index.js';
 
 // https://en.wikipedia.org/wiki/Topological_sorting
@@ -98,7 +97,7 @@ test('Coffman-Graham Algorithm step 2', (t) => {
 	const N = (u) => order.get(u);
 
 	const linearOrderOnDecreasingSequences = colexicographical(increasing);
-	const colexOrder = fn(linearOrderOnDecreasingSequences, N);
+	const colexOrder = key(linearOrderOnDecreasingSequences, N);
 
 	const breakTies = (u, v) => colexOrder(u, v) || increasing(u, v);
 

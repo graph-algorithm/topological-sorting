@@ -1,5 +1,5 @@
-import {PairingHeap as Heap} from '@aureooms/js-pairing-heap';
-import {EfficientlyInvertiblePairs as Pairs} from '@data-structure/pairs';
+import {PairingHeap as Heap} from '@heap-data-structure/pairing-heap';
+import {EfficientlyInvertiblePairs as Pairs} from '@collection-abstraction/pairs';
 
 import subroutine from './subroutine.js';
 
@@ -19,7 +19,7 @@ export default function* sorted(edges, breakTies = undefined) {
 
 	if (graph.size > 0) {
 		throw new Error(
-			'@aureooms/js-topological-sorting#sorted: input graph contains a cycle',
+			'@graph-algorithm/topological-sorting#sorted: input graph contains a cycle',
 		);
 	}
 }

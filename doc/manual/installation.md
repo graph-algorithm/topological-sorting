@@ -8,15 +8,15 @@ or [jspm](https://jspm.org/docs).
 
 ### yarn
 ```terminal
-yarn add @aureooms/js-topological-sorting
+yarn add @graph-algorithm/topological-sorting
 ```
 
 ### npm
 ```terminal
-npm install @aureooms/js-topological-sorting --save
+npm install @graph-algorithm/topological-sorting --save
 ```
 
 ### jspm
 ```terminal
-jspm install npm:@aureooms/js-topological-sorting
+jspm install npm:@graph-algorithm/topological-sorting
 ```

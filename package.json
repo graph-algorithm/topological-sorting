@@ -1,16 +1,16 @@
 {
-  "name": "@aureooms/js-topological-sorting",
+  "name": "@graph-algorithm/topological-sorting",
   "description": "Topological sorting for JavaScript",
   "version": "0.2.2",
   "license": "AGPL-3.0",
-  "author": "aureooms",
-  "homepage": "https://make-github-pseudonymous-again.github.io/js-topological-sorting",
+  "author": "make-github-pseudonymous-again",
+  "homepage": "https://graph-algorithm.github.io/topological-sorting",
   "repository": {
     "type": "git",
-    "url": "https://github.com/make-github-pseudonymous-again/js-topological-sorting"
+    "url": "https://github.com/graph-algorithm/topological-sorting"
   },
   "bugs": {
-    "url": "https://github.com/make-github-pseudonymous-again/js-topological-sorting/issues"
+    "url": "https://github.com/graph-algorithm/topological-sorting/issues"
   },
   "keywords": [
     "acyclic",
@@ -61,19 +61,23 @@
     "test": "ava"
   },
   "dependencies": {
-    "@aureooms/js-pairing-heap": "^3.0.0",
-    "@data-structure/pairs": "^4.0.0"
+    "@collection-abstraction/pairs": "^5.0.0",
+    "@heap-data-structure/pairing-heap": "^4.0.0"
   },
   "devDependencies": {
-    "@aureooms/js-collections-counter": "5.0.0",
-    "@aureooms/js-compare": "2.0.1",
-    "@aureooms/js-itertools": "5.1.1",
     "@babel/cli": "7.14.8",
     "@babel/core": "7.14.8",
     "@babel/preset-env": "7.14.8",
     "@babel/register": "7.14.5",
+    "@collection-abstraction/counter": "6.0.0",
     "@commitlint/cli": "13.1.0",
+    "@iterable-iterator/list": "^1.0.1",
+    "@iterable-iterator/map": "^1.0.1",
+    "@iterable-iterator/range": "^2.0.1",
     "@js-library/commitlint-config": "0.0.4",
+    "@total-order/key": "^1.0.0",
+    "@total-order/lex": "^1.0.0",
+    "@total-order/primitive": "^1.0.1",
     "ava": "3.15.0",
     "babel-plugin-transform-remove-console": "6.9.4",
     "babel-plugin-unassert": "3.1.0",
@@ -88,7 +92,7 @@
     "fixpack": "4.0.0",
     "husky": "7.0.1",
     "lint-staged": "11.1.1",
-    "microbundle": "0.13.3",
+    "microbundle": "0.13.1",
     "np": "7.5.0",
     "pinst": "2.1.6",
     "power-assert": "1.6.1",

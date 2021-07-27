@@ -1,36 +1,36 @@
-:oden: [@aureooms/js-topological-sorting](https://make-github-pseudonymous-again.github.io/js-topological-sorting)
+:oden: [@graph-algorithm/topological-sorting](https://graph-algorithm.github.io/topological-sorting)
 ==
 
 Topological sorting algorithms for JavaScript.
-See [docs](https://make-github-pseudonymous-again.github.io/js-topological-sorting/index.html).
+See [docs](https://graph-algorithm.github.io/topological-sorting/index.html).
 
 > :warning: The code requires `regeneratorRuntime` to be defined, for instance by importing
 > [regenerator-runtime/runtime](https://www.npmjs.com/package/regenerator-runtime).
 
 ```js
 // Sort anything that can be iterated over with `for (const [u, v] of ...)`
-import {sorted} from '@aureooms/js-topological-sorting';
+import {sorted} from '@graph-algorithm/topological-sorting';
 sorted(["ab", "bc"]); // abc
 
 // Add a comparison function to break ties.
-import {increasing} from '@aureooms/js-compare';
+import {increasing} from '@total-order/primitive';
 sorted(["ab", "cd"], increasing); // abcd
 
-import {decreasing} from '@aureooms/js-compare';
+import {decreasing} from '@total-order/primitive';
 sorted(["ab", "cd"], decreasing); // cdab
 ```
 
-[![License](https://img.shields.io/github/license/make-github-pseudonymous-again/js-topological-sorting.svg)](https://raw.githubusercontent.com/make-github-pseudonymous-again/js-topological-sorting/main/LICENSE)
-[![Version](https://img.shields.io/npm/v/@aureooms/js-topological-sorting.svg)](https://www.npmjs.org/package/@aureooms/js-topological-sorting)
-[![Tests](https://img.shields.io/github/workflow/status/make-github-pseudonymous-again/js-topological-sorting/ci:test?event=push&label=tests)](https://github.com/make-github-pseudonymous-again/js-topological-sorting/actions/workflows/ci:test.yml?query=branch:main)
-[![Dependencies](https://img.shields.io/david/make-github-pseudonymous-again/js-topological-sorting.svg)](https://david-dm.org/make-github-pseudonymous-again/js-topological-sorting)
-[![Dev dependencies](https://img.shields.io/david/dev/make-github-pseudonymous-again/js-topological-sorting.svg)](https://david-dm.org/make-github-pseudonymous-again/js-topological-sorting?type=dev)
-[![GitHub issues](https://img.shields.io/github/issues/make-github-pseudonymous-again/js-topological-sorting.svg)](https://github.com/make-github-pseudonymous-again/js-topological-sorting/issues)
-[![Downloads](https://img.shields.io/npm/dm/@aureooms/js-topological-sorting.svg)](https://www.npmjs.org/package/@aureooms/js-topological-sorting)
+[![License](https://img.shields.io/github/license/graph-algorithm/topological-sorting.svg)](https://raw.githubusercontent.com/graph-algorithm/topological-sorting/main/LICENSE)
+[![Version](https://img.shields.io/npm/v/@graph-algorithm/topological-sorting.svg)](https://www.npmjs.org/package/@graph-algorithm/topological-sorting)
+[![Tests](https://img.shields.io/github/workflow/status/graph-algorithm/topological-sorting/ci:test?event=push&label=tests)](https://github.com/graph-algorithm/topological-sorting/actions/workflows/ci:test.yml?query=branch:main)
+[![Dependencies](https://img.shields.io/david/graph-algorithm/topological-sorting.svg)](https://david-dm.org/graph-algorithm/topological-sorting)
+[![Dev dependencies](https://img.shields.io/david/dev/graph-algorithm/topological-sorting.svg)](https://david-dm.org/graph-algorithm/topological-sorting?type=dev)
+[![GitHub issues](https://img.shields.io/github/issues/graph-algorithm/topological-sorting.svg)](https://github.com/graph-algorithm/topological-sorting/issues)
+[![Downloads](https://img.shields.io/npm/dm/@graph-algorithm/topological-sorting.svg)](https://www.npmjs.org/package/@graph-algorithm/topological-sorting)
 
-[![Code issues](https://img.shields.io/codeclimate/issues/make-github-pseudonymous-again/js-topological-sorting.svg)](https://codeclimate.com/github/make-github-pseudonymous-again/js-topological-sorting/issues)
-[![Code maintainability](https://img.shields.io/codeclimate/maintainability/make-github-pseudonymous-again/js-topological-sorting.svg)](https://codeclimate.com/github/make-github-pseudonymous-again/js-topological-sorting/trends/churn)
-[![Code coverage (cov)](https://img.shields.io/codecov/c/gh/make-github-pseudonymous-again/js-topological-sorting/main.svg)](https://codecov.io/gh/make-github-pseudonymous-again/js-topological-sorting)
-[![Code technical debt](https://img.shields.io/codeclimate/tech-debt/make-github-pseudonymous-again/js-topological-sorting.svg)](https://codeclimate.com/github/make-github-pseudonymous-again/js-topological-sorting/trends/technical_debt)
-[![Documentation](https://make-github-pseudonymous-again.github.io/js-topological-sorting/badge.svg)](https://make-github-pseudonymous-again.github.io/js-topological-sorting/source.html)
-[![Package size](https://img.shields.io/bundlephobia/minzip/@aureooms/js-topological-sorting)](https://bundlephobia.com/result?p=@aureooms/js-topological-sorting)
+[![Code issues](https://img.shields.io/codeclimate/issues/graph-algorithm/topological-sorting.svg)](https://codeclimate.com/github/graph-algorithm/topological-sorting/issues)
+[![Code maintainability](https://img.shields.io/codeclimate/maintainability/graph-algorithm/topological-sorting.svg)](https://codeclimate.com/github/graph-algorithm/topological-sorting/trends/churn)
+[![Code coverage (cov)](https://img.shields.io/codecov/c/gh/graph-algorithm/topological-sorting/main.svg)](https://codecov.io/gh/graph-algorithm/topological-sorting)
+[![Code technical debt](https://img.shields.io/codeclimate/tech-debt/graph-algorithm/topological-sorting.svg)](https://codeclimate.com/github/graph-algorithm/topological-sorting/trends/technical_debt)
+[![Documentation](https://graph-algorithm.github.io/topological-sorting/badge.svg)](https://graph-algorithm.github.io/topological-sorting/source.html)
+[![Package size](https://img.shields.io/bundlephobia/minzip/@graph-algorithm/topological-sorting)](https://bundlephobia.com/result?p=@graph-algorithm/topological-sorting)

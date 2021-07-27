@@ -17,7 +17,7 @@
           "autoPrivate": true
         },
         "brand": {
-          "title": "@aureooms/js-topological-sorting"
+          "title": "@graph-algorithm/topological-sorting"
         },
         "test": {
           "type": "ava",

@@ -10,7 +10,7 @@ const domReady = function (callback) {
 domReady(() => {
 	const projectname = document.createElement('a');
 	projectname.classList.add('project-name');
-	projectname.text = 'aureooms/js-topological-sorting';
+	projectname.text = 'graph-algorithm/topological-sorting';
 	projectname.href = './index.html';
 
 	const header = document.querySelector('header');
@@ -18,7 +18,7 @@ domReady(() => {
 
 	const testlink = document.querySelector('header > a[data-ice="testLink"]');
 	testlink.href =
-		'https://coveralls.io/github/make-github-pseudonymous-again/js-topological-sorting';
+		'https://coveralls.io/github/graph-algorithm/topological-sorting';
 	testlink.target = '_BLANK';
 
 	const searchBox = document.querySelector('.search-box');
