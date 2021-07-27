@@ -1,26 +1,26 @@
 window.esdocSearchIndex = [
   [
-    "@aureooms/js-topological-sorting/src/freevertices.js~freevertices",
+    "@graph-algorithm/topological-sorting/src/freevertices.js~freevertices",
     "function/index.html#static-function-freeVertices",
-    "<span>freeVertices</span> <span class=\"search-result-import-path\">@aureooms/js-topological-sorting/src/freeVertices.js</span>",
+    "<span>freeVertices</span> <span class=\"search-result-import-path\">@graph-algorithm/topological-sorting/src/freeVertices.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-topological-sorting/src/kahn1962.js~kahn1962",
+    "@graph-algorithm/topological-sorting/src/kahn1962.js~kahn1962",
     "function/index.html#static-function-kahn1962",
-    "<span>kahn1962</span> <span class=\"search-result-import-path\">@aureooms/js-topological-sorting/src/kahn1962.js</span>",
+    "<span>kahn1962</span> <span class=\"search-result-import-path\">@graph-algorithm/topological-sorting/src/kahn1962.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-topological-sorting/src/sorted.js~sorted",
+    "@graph-algorithm/topological-sorting/src/sorted.js~sorted",
     "function/index.html#static-function-sorted",
-    "<span>sorted</span> <span class=\"search-result-import-path\">@aureooms/js-topological-sorting/src/sorted.js</span>",
+    "<span>sorted</span> <span class=\"search-result-import-path\">@graph-algorithm/topological-sorting/src/sorted.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-topological-sorting/src/subroutine.js~subroutine",
+    "@graph-algorithm/topological-sorting/src/subroutine.js~subroutine",
     "function/index.html#static-function-subroutine",
-    "<span>subroutine</span> <span class=\"search-result-import-path\">@aureooms/js-topological-sorting/src/subroutine.js</span>",
+    "<span>subroutine</span> <span class=\"search-result-import-path\">@graph-algorithm/topological-sorting/src/subroutine.js</span>",
     "function"
   ],
   [
