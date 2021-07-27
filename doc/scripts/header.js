@@ -18,7 +18,7 @@ domReady(() => {
 
 	const testlink = document.querySelector('header > a[data-ice="testLink"]');
 	testlink.href =
-		'https://coveralls.io/github/graph-algorithm/topological-sorting';
+		'https://app.codecov.io/gh/graph-algorithm/topological-sorting';
 	testlink.target = '_BLANK';
 
 	const searchBox = document.querySelector('.search-box');
