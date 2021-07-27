@@ -5,14 +5,14 @@
 
 First, require the polyfill at the entry point of your application
 ```js
-require( 'regenerator-runtime/runtime' );
+await import( 'regenerator-runtime/runtime.js' );
 // or
 import 'regenerator-runtime/runtime.js' ;
 ```
 
 Then, import the library where needed
 ```js
-const topologicalSorting = require( '@graph-algorithm/topological-sorting' ) ;
+const topologicalSorting = await import( '@graph-algorithm/topological-sorting' ) ;
 // or
 import * as topologicalSorting from '@graph-algorithm/topological-sorting' ;
 ```
