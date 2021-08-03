@@ -1117,13 +1117,13 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@collection-abstraction/counter@6.0.0":
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/@collection-abstraction/counter/-/counter-6.0.0.tgz#b79c40211206b5904cf89de8477a43158b9ed6c2"
-  integrity sha512-yQgH4iqFF4VjTUCRISgKuMG55NNFvXILX7sfY6y2n2Y2JKl2eYmjHBAfwVhrQ4DpqzVKmTHm2fGyxjAFyQoURg==
+"@collection-abstraction/counter@6.0.1":
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/@collection-abstraction/counter/-/counter-6.0.1.tgz#1d6d11c155a688edfe0901ce9b3046ed1108a9b8"
+  integrity sha512-1129J7fivWIaTTwZQVHRdRL3dLk24Xb4gzrUVHOEM7N9foyRGTLRZscjV1NZl2Tix/k+EqGGCNfOJ7OBYKHm4g==
   dependencies:
     "@collection-abstraction/dict" "^5.0.0"
-    "@data-structure/heapq" "^4.0.0"
+    "@data-structure/heapq" "^4.0.2"
     "@failure-abstraction/error" "^6.0.1"
     "@total-order/key" "^1.0.0"
     "@total-order/primitive" "^1.0.1"
@@ -1283,15 +1283,15 @@
   dependencies:
     arrify "^1.0.1"
 
-"@data-structure/heapq@^4.0.0":
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/@data-structure/heapq/-/heapq-4.0.0.tgz#02f7c4bd8940f1f1a2cbc2858cd042627233b496"
-  integrity sha512-d+F99VthLVSoFORN8U7ftl1vyvanF5keyKPGlux01YKQnsyKwImOf6HvM03lxUyFWzldrWRpby5H+oQLLf7PPw==
+"@data-structure/heapq@^4.0.2":
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/@data-structure/heapq/-/heapq-4.0.2.tgz#b5105a5e8dbc7e44241699dfb0832fea05df11e4"
+  integrity sha512-3Ija0yHyJdhbEK4e2VOMaakl4RwG8jhWSFZ5X7UXl+iYxkgs/+CUSiJVcafdMCz+rQtyauctWKE681GG0jTvAg==
   dependencies:
     "@failure-abstraction/error" "^6.0.1"
     "@iterable-iterator/iter" "^1.0.1"
     "@iterable-iterator/map" "^1.0.1"
-    "@iterable-iterator/range" "^2.0.1"
+    "@iterable-iterator/range" "^2.1.0"
     "@iterable-iterator/reduce" "^1.0.1"
     "@iterable-iterator/sorted" "^1.0.0"
     "@iterable-iterator/zip" "^1.0.1"
@@ -1381,10 +1381,15 @@
   dependencies:
     "@failure-abstraction/error" "^6.0.1"
 
-"@iterable-iterator/range@2.0.1", "@iterable-iterator/range@^2.0.1":
+"@iterable-iterator/range@2.0.1":
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/@iterable-iterator/range/-/range-2.0.1.tgz#3d566aa26e3df496f2ba18a2f67de4c65518e81c"
   integrity sha512-JPkPH/u4AQxWyqXDOqHk4DZeQJANv67cXuiE0DLC0FTaRgExQASlbhPZJo+JVxZRXW2EOBXSzdKdJQe5w9XghA==
+
+"@iterable-iterator/range@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@iterable-iterator/range/-/range-2.1.0.tgz#d7cfeee165c612f460c9ea1854a250f4788f1226"
+  integrity sha512-3/jhQR2FVpur0RmrHCksePYsahdZcGh7WKukDkI1xq3gwzmCQm3Nv0MwKttMf3viUGq6mV0BUHXybpLLfMCeKA==
 
 "@iterable-iterator/reduce@^1.0.1":
   version "1.0.1"
