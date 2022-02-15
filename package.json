@@ -68,7 +68,7 @@
     "@heap-data-structure/pairing-heap": "^4.0.0"
   },
   "devDependencies": {
-    "@babel/core": "7.17.2",
+    "@babel/core": "7.17.4",
     "@babel/preset-env": "7.16.11",
     "@babel/register": "7.17.0",
     "@collection-abstraction/counter": "6.0.1",
