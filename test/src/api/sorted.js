@@ -8,7 +8,7 @@ import {colexicographical} from '@total-order/lex';
 import {key} from '@total-order/key';
 import {EfficientlyInvertiblePairs as Pairs} from '@collection-abstraction/pairs';
 import {counter} from '@collection-abstraction/counter';
-import {sorted} from '../../../src/index.js';
+import {sorted} from '#module';
 
 // https://en.wikipedia.org/wiki/Topological_sorting
 const wikipediaGraph = [
