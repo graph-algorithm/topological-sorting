@@ -23,8 +23,7 @@ sorted(["ab", "cd"], decreasing); // cdab
 [![License](https://img.shields.io/github/license/graph-algorithm/topological-sorting.svg)](https://raw.githubusercontent.com/graph-algorithm/topological-sorting/main/LICENSE)
 [![Version](https://img.shields.io/npm/v/@graph-algorithm/topological-sorting.svg)](https://www.npmjs.org/package/@graph-algorithm/topological-sorting)
 [![Tests](https://img.shields.io/github/workflow/status/graph-algorithm/topological-sorting/ci:test?event=push&label=tests)](https://github.com/graph-algorithm/topological-sorting/actions/workflows/ci:test.yml?query=branch:main)
-[![Dependencies](https://img.shields.io/david/graph-algorithm/topological-sorting.svg)](https://david-dm.org/graph-algorithm/topological-sorting)
-[![Dev dependencies](https://img.shields.io/david/dev/graph-algorithm/topological-sorting.svg)](https://david-dm.org/graph-algorithm/topological-sorting?type=dev)
+[![Dependencies](https://img.shields.io/librariesio/github/graph-algorithm/topological-sorting.svg)](https://github.com/graph-algorithm/topological-sorting/network/dependencies)
 [![GitHub issues](https://img.shields.io/github/issues/graph-algorithm/topological-sorting.svg)](https://github.com/graph-algorithm/topological-sorting/issues)
 [![Downloads](https://img.shields.io/npm/dm/@graph-algorithm/topological-sorting.svg)](https://www.npmjs.org/package/@graph-algorithm/topological-sorting)
 
