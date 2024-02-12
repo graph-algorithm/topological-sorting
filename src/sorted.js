@@ -1,5 +1,5 @@
-import {PairingHeap as Heap} from '@heap-data-structure/pairing-heap';
 import {EfficientlyInvertiblePairs as Pairs} from '@collection-abstraction/pairs';
+import {PairingHeap as Heap} from '@heap-data-structure/pairing-heap';
 
 import subroutine from './subroutine.js';
 

@@ -1,13 +1,14 @@
 import test from 'ava';
 
-import {map} from '@iterable-iterator/map';
-import {list} from '@iterable-iterator/list';
-import {range} from '@iterable-iterator/range';
-import {increasing, decreasing} from '@total-order/primitive';
-import {colexicographical} from '@total-order/lex';
-import {key} from '@total-order/key';
-import {EfficientlyInvertiblePairs as Pairs} from '@collection-abstraction/pairs';
 import {counter} from '@collection-abstraction/counter';
+import {EfficientlyInvertiblePairs as Pairs} from '@collection-abstraction/pairs';
+import {list} from '@iterable-iterator/list';
+import {map} from '@iterable-iterator/map';
+import {range} from '@iterable-iterator/range';
+import {key} from '@total-order/key';
+import {colexicographical} from '@total-order/lex';
+import {increasing, decreasing} from '@total-order/primitive';
+
 import {sorted} from '#module';
 
 // https://en.wikipedia.org/wiki/Topological_sorting
