@@ -75,8 +75,8 @@
     "@heap-data-structure/pairing-heap": "^4.0.0"
   },
   "devDependencies": {
-    "@babel/core": "7.24.6",
-    "@babel/preset-env": "7.24.6",
+    "@babel/core": "7.24.7",
+    "@babel/preset-env": "7.24.7",
     "@collection-abstraction/counter": "6.0.1",
     "@commitlint/cli": "19.3.0",
     "@iterable-iterator/list": "1.0.1",
